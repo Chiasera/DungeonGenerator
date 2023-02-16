@@ -20,7 +20,7 @@ public class DungeonData : ScriptableObject
         randomWalkParameters.ExecuteRandomWalk();
         corridorsParameters.GenerateCorridors(randomWalkParameters);
         walls.CreateWalls(corridorsParameters.GetCorridorsLayout());
-        DungeonDrawer.Draw(randomWalkParameters.GetPositionsBuffer(), mono, PrimitiveType.Cube);
+        DungeonDrawer.Draw(corridorsParameters.GetPositionsBuffer(), mono, PrimitiveType.Cube);
         DungeonDrawer.Draw(walls.GetPositionsBuffer(), mono, PrimitiveType.Sphere);
     }
 

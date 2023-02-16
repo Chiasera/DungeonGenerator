@@ -15,19 +15,12 @@ MonoBehaviour:
   activeLayout: {fileID: 11400000, guid: cc77afc41768e9243b82ea23ac2ba356, type: 2}
   randomWalkParameters:
     startPos: {x: 0, y: 0}
-    iterations: 100
-    stepSize: 20
+    iterations: 200
+    stepSize: 60
     randomStartLocation: 1
   corridorsParameters:
     startPos: {x: 0, y: 0}
-    corridorLength: 60
-    corridorCount: 30
+    corridorLength: 45
+    corridorCount: 15
     randomizeLength: 0
-    roomPercent: 0.65
-  fractalCorridorParameters:
-    startPos: {x: 0, y: 0}
-    radius: 20
-    numberOfSegments: 5
-    angleVariation: 45
-    innerRadiusFactor: 10
-    treeDepth: 5
+    roomPercent: 0.7
