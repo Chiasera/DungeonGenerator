@@ -46,7 +46,7 @@ public class DungeonData : ScriptableObject
 
     public void SaveData()
     {
-        GetActiveLayout().SaveFloorData(randomWalkParameters.GetPositionsBuffer());
+        GetActiveLayout().SaveFloorData(corridorsParameters.GetPositionsBuffer());
         GetActiveLayout().SaveWallsData(walls.GetPositionsBuffer()); //expected not to be null   
     }
 
