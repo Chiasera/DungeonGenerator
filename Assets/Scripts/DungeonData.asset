@@ -15,12 +15,12 @@ MonoBehaviour:
   activeLayout: {fileID: 11400000, guid: cc77afc41768e9243b82ea23ac2ba356, type: 2}
   randomWalkParameters:
     startPos: {x: 0, y: 0}
-    iterations: 200
-    stepSize: 60
+    iterations: 1000
+    stepSize: 10
     randomStartLocation: 1
   corridorsParameters:
     startPos: {x: 0, y: 0}
-    corridorLength: 45
-    corridorCount: 15
+    corridorLength: 40
+    corridorCount: 100
     randomizeLength: 0
-    roomPercent: 0.7
+    roomPercent: 0.5
